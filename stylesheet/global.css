@@ -55,7 +55,7 @@ li {
 }
 
 .container {
-  background: #eee url('../images/background.jpg') no-repeat center center;
+  background: #eee url('../images/background2.jpeg') no-repeat center center;
   background-size: cover;
   background-position: center;
 }
@@ -66,7 +66,7 @@ li {
   justify-content: flex-end;
   min-height: 100vh;
   font-family: 'arial', sans-serif;
-  background-color: rgba(50, 50, 50, .5)
+  /* background-color: rgba(50, 50, 50, .5) */
 }
 
 .content {
@@ -171,9 +171,9 @@ li {
   /* align-items: center; */
   width: 1200px;
   /* min-height: calc(100vh - 160px); */
-  font-size: 40px;
+  font-size: 30px;
   text-align: justify;
-  line-height: 58px;
+  line-height: 50px;
 }
 
 .about img {
