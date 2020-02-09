@@ -113,6 +113,7 @@ li {
   bottom: -5px;
   font-size: 25px;
   text-decoration: none;
+  font-family: Papyrus;
 }
 
 .social a img {
@@ -176,9 +177,40 @@ li {
   line-height: 50px;
 }
 
+.main a {
+  color: #00f
+}
+
 .about img {
   margin-right: 50px;
   height: 700px;
+}
+
+.obras,
+.series {
+  width: 1200px;
+}
+
+.obras ul,
+.series ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.obras ul li,
+.series ul li {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.obras ul li img,
+.series ul li img {
+  width: 350px;
+  margin-right: 20px;
+  /* height: 460px; */
 }
 
 @media (max-width: 600px) {
