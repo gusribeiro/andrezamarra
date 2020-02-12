@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Papyrus";
+  src: url("./fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot");
+  src: url("./fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff2") format("woff2"),
+    url("./fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff") format("woff"),
+    url("./fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.ttf") format("truetype"),
+    url("./fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.svg#Papyrus W01") format("svg");
+}
+
+@font-face {
+  font-family: "dearJoe4";
+  src: url("./fonts/09f3116d4fd9c65bd6c61655f2b86cfe.eot");
+  src: url("./fonts/09f3116d4fd9c65bd6c61655f2b86cfe.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/09f3116d4fd9c65bd6c61655f2b86cfe.woff2") format("woff2"),
+    url("./fonts/09f3116d4fd9c65bd6c61655f2b86cfe.woff") format("woff"),
+    url("./fonts/09f3116d4fd9c65bd6c61655f2b86cfe.ttf") format("truetype"),
+    url("./fonts/09f3116d4fd9c65bd6c61655f2b86cfe.svg#dearJoe4") format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  font-family: Papyrus, sans-serif;
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+  min-height: calc(100vh - 154px);
+
+  h2 {
+    text-align: center;
+    margin: 40px 0 50px 0;
+    font-size: 50px;
+  }
+}
