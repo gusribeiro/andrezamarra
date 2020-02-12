@@ -6,7 +6,7 @@ const Home = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', e => {
-      let vh = window.innerHeight;
+      let vh = window.innerHeight / 1.5;
       let scrollTop = window.scrollY;
 
       if (vh > scrollTop) {

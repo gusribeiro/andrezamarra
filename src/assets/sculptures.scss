@@ -1,0 +1,33 @@
+.sculptures {
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      width: 47%;
+      margin-bottom: 50px;
+
+      img {
+        width: 50%;
+        margin-right: 30px;
+      }
+
+      .info {
+        p {
+          margin-bottom: 20px;
+
+          span {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}

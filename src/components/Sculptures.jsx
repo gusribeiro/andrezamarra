@@ -6,16 +6,16 @@ const Sculptures = () => {
   return (
     <div className="wrapper">
       <h2>Obras</h2>
-      <div className="sculpture">
+      <div className="sculptures">
         <ul>
           {sculptures.map(item =>
             <li key={item.title}>
-              <img src='' alt='' />
-              <div>
-                <p><span>Título:</span> {item.title}</p>
-                <p><span>Técnica:</span> {item.technique}</p>
-                <p><span>Dimensão:</span> {item.dimension}</p>
-                <p><span>Ano:</span> {item.year}</p>
+              <img src={item.thumbnail} alt={item.title} />
+              <div className="info">
+                <p><span>Título</span> {item.title}</p>
+                <p><span>Técnica</span> {item.technique}</p>
+                <p><span>Dimensão</span> {item.dimension}</p>
+                <p><span>Ano</span> {item.year}</p>
                 <p>valor sobre consulta</p>
                 <a href='#mais'>ver mais fotos</a>
               </div>
