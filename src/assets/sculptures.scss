@@ -6,18 +6,23 @@
     justify-content: space-between;
 
     li {
+      position:relative;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
-      width: 47%;
-      margin-bottom: 50px;
+      justify-content: space-between;
+      width: 390px;
+      height: 390px;
 
       img {
-        width: 50%;
+        width: 100%;
+        height: 100%;
         margin-right: 30px;
       }
 
       .info {
+        display: none;
+
         p {
           margin-bottom: 20px;
 
@@ -26,6 +31,31 @@
             font-weight: bold;
             margin-bottom: 5px;
           }
+        }
+      }
+
+      &:hover {
+        p {
+          margin: 10px 0 0 0;
+
+          span {
+            display: none;
+          }
+
+          &:first-child {
+            margin: 5px 0 0 0;
+            font-weight: bold;
+          }
+        }
+
+        .info {
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          flex-direction: column;
+          width: calc(100% - 20px);
+          padding: 10px;
+          background: rgba(255, 255, 255, .5);
         }
       }
     }

@@ -1,15 +1,15 @@
 const sculptures = [
   {
-    "title": "Vaso Fita",
+    "title": "Fita",
     "technique": "Esculpida em argila. Fundição em bronze. Acabamento externo polido e acabamento interno em pátina verde.",
-    "dimension": "n/a",
+    "dimension": null,
     "year": "2018",
     "thumbnail": "/images/sculptures/fita.jpg"
   },
   {
     "title": "Pétalas",
-    "technique": "n/a",
-    "dimension": "n/a",
+    "technique": null,
+    "dimension": null,
     "year": "2017",
     "thumbnail": "/images/sculptures/petalas.jpg"
   },
