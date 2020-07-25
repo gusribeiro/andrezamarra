@@ -98,7 +98,7 @@ export default [
     technique:
       "Esculpida em argila & Fundição em resina de poliéster com Pó de Mármore",
     dimensions: { width: 34, depth: 18, height: 44 },
-    images: ["heart_heart_01.png", "heart_heart_02.jpg", "heart_heart_03.png"],
+    images: ["heart_heart_01.png", "heart_heart_02.jpg", "heart_heart_03.jpg"],
   },
   {
     title: "Ondas",
