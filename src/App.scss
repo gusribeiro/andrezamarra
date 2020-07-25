@@ -1,0 +1,234 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: "Papyrus";
+  src: url("./assets/fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot");
+  src: url("./assets/fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff2") format("woff2"),
+    url("./assets/fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.woff") format("woff"),
+    url("./assets/fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.ttf")
+      format("truetype"),
+    url("./assets/fonts/a0e1b1883c0cf520e9c50d0cd91cd0d0.svg#Papyrus W01")
+      format("svg");
+}
+
+@font-face {
+  font-family: "dearJoe4";
+  src: url("./assets/fonts/09f3116d4fd9c65bd6c61655f2b86cfe.eot");
+  src: url("./assets/fonts/09f3116d4fd9c65bd6c61655f2b86cfe.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/09f3116d4fd9c65bd6c61655f2b86cfe.woff2") format("woff2"),
+    url("./assets/fonts/09f3116d4fd9c65bd6c61655f2b86cfe.woff") format("woff"),
+    url("./assets/fonts/09f3116d4fd9c65bd6c61655f2b86cfe.ttf")
+      format("truetype"),
+    url("./assets/fonts/09f3116d4fd9c65bd6c61655f2b86cfe.svg#dearJoe4")
+      format("svg");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Papyrus", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  background: #000;
+}
+
+.title {
+  margin-bottom: 40px;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 60px;
+    font-size: 45px;
+  }
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 50px 25px;
+  max-width: 1200px;
+
+  @include media-breakpoint-up(lg) {
+    padding: 75px 25px;
+  }
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  height: 100vh;
+  padding: 0 15px 30px 15px;
+  background: url(./assets/images/background.jpeg) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+
+  .social {
+    a {
+      font-size: 15px;
+      text-decoration: none;
+
+      @include media-breakpoint-up(lg) {
+        font-size: 25px;
+      }
+
+      &.instagram {
+        padding-left: 25px;
+        color: #fff;
+        background: url(./assets/images/instagram.svg) no-repeat center left;
+
+        @include media-breakpoint-up(lg) {
+          padding-left: 40px;
+        }
+      }
+    }
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: 0;
+    font-weight: normal;
+    font-size: 45px;
+
+    p {
+      display: none;
+    }
+
+    span {
+      display: block;
+      height: 130px;
+      margin-left: 10px;
+      font-size: 3em;
+      overflow: hidden;
+
+      em {
+        display: inline-flex;
+        width: 70px;
+        margin-right: -20px;
+        overflow: hidden;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-bottom: -28px;
+      font-size: 56px;
+
+      p {
+        display: inline;
+        margin: 0;
+      }
+
+      span {
+        height: 160px;
+
+        em {
+          width: 82px;
+        }
+      }
+    }
+  }
+}
+
+.about {
+  // color: #000;
+  text-align: justify;
+  // background: #fff;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 30px;
+  }
+
+  p {
+    img {
+      display: block;
+      width: 70vw;
+      margin: 0 auto 30px auto;
+
+      @include media-breakpoint-up(lg) {
+        float: left;
+        width: 300px;
+        margin: 0 30px 0 0;
+      }
+    }
+  }
+}
+
+.portfolio {
+  color: #fff;
+
+  .gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 50px;
+
+    @include media-breakpoint-up(lg) {
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 100px;
+    }
+
+    .slick-slider {
+      width: 100%;
+
+      @include media-breakpoint-up(lg) {
+        width: 30%;
+      }
+
+      .slick-arrow {
+        position: absolute;
+        top: calc(50% - 15px);
+        font-size: 30px;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.4);
+        z-index: 1;
+        cursor: pointer;
+
+        @include media-breakpoint-up(lg) {
+          top: calc(50% - 25px);
+          font-size: 50px;
+        }
+
+        &.slick-prev {
+          left: 0;
+        }
+
+        &.slick-next {
+          right: 0;
+        }
+
+        &.slick-disabled {
+          opacity: 0;
+        }
+      }
+    }
+
+    .description {
+      margin: 25px 0 0 0;
+      color: #ccc;
+
+      span {
+        display: block;
+        font-size: 0.7em;
+        font-weight: bold;
+        color: #fff;
+      }
+
+      @include media-breakpoint-up(lg) {
+        width: 68%;
+        margin: 0;
+        font-size: 30px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+}
