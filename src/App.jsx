@@ -35,7 +35,7 @@ function App() {
             atualmente. Formada em Arquitetura e Urbanismo, em São Paulo, seu
             contato com a arte começou com desenhos e aquarelas, porém sempre
             buscando outras formas para se expressar. Foi assim que, em 2015,
-            afloraram seu talento e as DESCOBERTAS para seus novos trabalhos.
+            afloraram seu talento e as descobertas para seus novos trabalhos.
             Desde então, ela se expressa através das esculturas. Usando diversos
             materiais, tais como metais, resina e papel, a artista revela em
             suas obras um reflexo claro de sua personalidade. Inquieta, sensível
