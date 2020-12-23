@@ -128,6 +128,23 @@ export default [
     ],
   },
   {
+    title: "Folhagem Preto e Dourado",
+    technique:
+      "Esculpida em argila, Fundicao em resina com minério de ferro com folhação a ouro.",
+    dimensions: { width: 18, depth: 5, height: 18 },
+    images: [
+      "folhagem_preto_dourado_01.jpeg",
+      "folhagem_preto_dourado_02.jpeg",
+    ],
+  },
+  {
+    title: "Folhagem Color",
+    technique:
+      "Esculpida em argila, Fundicao em resina com minério de ferro e intervenção de pintura.",
+    dimensions: { width: 18, depth: 5, height: 18 },
+    images: ["folhagem_color_01.jpeg", "folhagem_color_02.jpeg"],
+  },
+  {
     title: "Passos",
     technique: "Esculpida em argila & Fundição em Bronze, acabamento fosco",
     dimensions: { width: 208, depth: 20, height: 32 },
